@@ -1,0 +1,55 @@
+<style>
+    body{
+      background: url(assets/store/5fcc80e2a77a4ce69467ea7f08e49fea.png);
+    }
+    .card{
+      background: rgba(184, 170, 170, 0.7);
+    }
+    </style>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+      <div class="card m-4 border-2 text-center" style="width: 80%;">
+        <div class="card-header fw-bold text-center text-uppercase">
+          ĐĂNG KÝ
+        </div>
+        <div class="card-body">
+          <form name="frmdk">
+            <div class="mb-3 row text-start">
+              <label class="form-label fw-bold">Tên đăng ký</label>
+              <input required ng-minlength="3" ng-model="formData.username" name="username" type="text" class="form-control bg-success-subtle" 
+                placeholder="Nhập tên đăng ký">
+              <em class="text-danger" ng-show="frmdk.username.$touched && frmdk.username.$error.required">Tên đăng nhập là bắt buộc</em>
+              <em class="text-danger" ng-show="frmdk.username.$error.minlength">Tên đăng nhập phải có ít nhất 3 ký tự</em>
+            </div>
+            <div class="mb-3 text-start">
+              <label class="form-label fw-bold">Mật khẩu</label>
+              <input required ng-minlength="6" ng-model="formData.password" name="password" type="password" class="form-control bg-success-subtle" 
+                placeholder="Nhập mật khẩu">
+              <em class="text-danger" ng-show="frmdk.password.$touched && frmdk.password.$error.required">Mật khẩu là bắt buộc</em>
+              <em class="text-danger" ng-show="frmdk.password.$error.minlength">Mật khẩu phải có ít nhất 6 ký tự</em>
+            </div>
+            <div class="mb-3 text-start">
+              <label class="form-label fw-bold">Họ và tên</label>
+              <input required ng-model="formData.fullname" name="fullname" type="text" class="form-control bg-success-subtle" 
+                placeholder="Nhập họ và tên">
+              <em class="text-danger" ng-show="frmdk.fullname.$touched && frmdk.fullname.$error.required">Vui lòng nhập họ và tên</em>
+            </div>
+            <div class="mb-3 text-start">
+              <label class="form-label fw-bold">Email</label>
+              <input required ng-model="formData.email" name="email" type="email" class="form-control bg-success-subtle" 
+                placeholder="Nhập email">
+              <em class="text-danger" ng-show="frmdk.email.$touched && frmdk.email.$error.required">Vui lòng nhập email</em>
+            </div>
+            <!-- Ngày sinh -->
+            <div class="mb-3 text-start">
+              <label for="birthday" class="form-label fw-bold">Ngày sinh</label>
+              <input required ng-model="formData.birthday" name="birthday" type="date" class="form-control bg-success-subtle" value="1995-12-21">
+              <em class="text-danger" ng-show="frmdk.birthday.$touched && frmdk.birthday.$error.required">Vui lòng chọn ngày sinh</em>
+            </div>
+            <p class="text-center">
+              <button ng-click="dangky()" type="button" class="btn btn-primary">Đăng Ký</button>
+            </p>
+    <p>Bạn đã có tài khoản?<a href="#!login">Đăng nhập</a></p>
+          </form>
+        </div> 
+      </div>
+    </div>

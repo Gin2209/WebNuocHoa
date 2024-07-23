@@ -1,0 +1,71 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.info-product .price-product-detail {
+  font-size: 26px;
+  margin: 20px 0;
+}
+.info-product .capacity {
+  font-size: 20px;
+}
+
+.action-product-detail {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.action-product-detail .quantity {
+  display: flex;
+}
+
+.quantity .input-quantity {
+  padding: 0 12px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+.quantity .action-quantity {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-action {
+  padding: 2px 4px;
+  border: 1px solid #ccc;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.add-cart {
+  background: black;
+  color: white;
+  padding: 12px 16px;
+  text-align: center;
+  font-weight: 300;
+  cursor: pointer;
+  margin-left: 20px;
+  border: none;
+}
+
+.add-cart:hover {
+  background: rgb(59, 59, 59);
+}
+
+.intro-product-detail .title-intro {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.intro-product-detail .intro-text {
+  font-size: 18px;
+  font-weight: 300;
+}

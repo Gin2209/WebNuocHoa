@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Vetiver Santal",
+      "price": "5100000",
+      "img": "vetiver1.png",
+      "intro": "Vừa xịt Vetiver Santal ra, ta sẽ nhận thấy rõ mùi chanh đắng khá êm dịu quyện với mùi cam bergamote fresh, xanh ngát và hơi chua chua tạo nên một cái mở đầu rất dễ chịu, tinh tế và trong trẻo tựa một chuyến dạo chơi nơi một vùng quê thanh bình yên ả không chút ồn ào trong một buổi chiều nắng nhẹ. Cái opening này của Vetiver Santal không bị cảm giác bùng nổ theo hướng những mùi hương cùng kiểu mở đầu cam chanh, có lẽ vì một chút sắc thái gỗ cũng xuất hiện giữ mùi hương lại không bị vồn vã quá, một cái gì đó rất thanh lịch đậm chất Pháp."
+    },
+    {
+      "id": 2,
+      "name": "Aventus",
+      "price": "7900000",
+      "img": "aventus.png",
+      "intro": "Creed Aventus tôn vinh sức mạnh, tầm nhìn và sự thành công, lấy cảm hứng từ cuộc sống đầy giai thoại giữa chiến tranh, hòa bình và sự lãng mạn của hoàng đế Napoleon. Nhắc đến Aventus hẳn những ai yêu thích nước hoa đều phải dành cho nó nhiều mỹ từ, và từ ngữ miêu tả về nó một cách chân thật nhất đó là “vua” của nước hoa."
+    },
+    {
+      "id": 3,
+      "name": "Dior Homme Cologne",
+      "price": "3100000",
+      "img": "dior-homme.png",
+      "intro": "Dior Homme Cologne có thành phần chính chỉ từ ba nốt hương là cam bergamote, hoa bưởi cùng với xạ hương. Ngay khi xịt ra, các bạn sẽ thấy một cảm giác mát lạnh, khoan khoái và dễ chịu đến từ cam bergamote tươi sáng, sắc, mọng nước và có cái nét chua nhẹ, cùng với đó là một cảm giác hơi sủi sủi dễ làm ta liên tưởng tới một cốc sprite đá lạnh, tuy nhiên thì rất ít ngọt mà đi theo hướng citrus là chính."
+    },
+    {
+      "id": 4,
+      "name": "Delina Hair Mist",
+      "price": "2400000",
+      "img": "delina1.png",
+      "intro": "Về cơ bản thì Delina Hair Mist sẽ là một phiên bản nhẹ nhàng hơn của Delina nhưng vẫn giữ nguyên cấu trúc mùi. Vì là sản phẩm nước hoa xịt tóc nên sẽ ít cồn hơn rất nhiều, khi các bạn nữ xịt lên tóc cũng sẽ không bị cảm giác khô, rít hay bết tóc như các loại nước hoa thông thường."
+    },
+    {
+      "id": 5,
+      "name": "Madame M",
+      "price": "5300000",
+      "img": "madame.png",
+      "intro": "Trong dàn nước hoa của Astrophil & Stella, tôi nghĩ rằng Madame M sẽ là chai nước hoa mang vị trí của Vedette. Mùi hương của Madame M không hề dễ đoán, dễ nắm bắt, dễ bóc tách ra các đơn nốt rõ ràng. Rất ít khi ta gặp một mùi hương của nữ được làm theo hướng woody cay ấm, với nhân vật chính là gỗ tuyết tùng, bạch đậu khấu cùng với hoắc hương."
+    },
+    {
+      "id": 6,
+      "name": "Delina",
+      "price": "6000000",
+      "img": "delina.png",
+      "intro": "Delina khi chỉ nghe đến tên thôi làm ta cảm nhận đây thật sự là cô nàng kiêu kì và cực kỳ quý tộc. Delina gây ấn tượng đầu tiên với Hoa hồng Thổ Nhĩ Kỳ, tựa như một điệu nhảy mê hoặc khứu giác, ngập tràn sự đam mê cùng hoa mẫu đơn và sự ngọt ngào của trái vải"
+    },
+    {
+      "id": 7,
+      "name": "Elixir Pour Femme Essence",
+      "price": "6800000",
+      "img": "roja.png",
+      "intro": "Roja Elixir là một mùi hương nữ khá dễ tiếp cận, khá dễ thích của Roja Parfums. Ở Roja Elixir, chúng ta có nhân vật chính là hoa hồng tháng 5, cái nét hoa hồng hiện lên cực kì rõ, mềm mại tựa như một cánh hoa, lại hơi phấn phấn khá là nữ tính."
+    },
+    {
+      "id": 8,
+      "name": "Signature EDP",
+      "price": "2300000",
+      "img": "EDP1.png",
+      "intro": "Montblanc Signature là một mùi hương rất đáng mua dành cho những cô nàng thích sự nhẹ nhàng nhưng vẫn lôi cuốn. Ở Montblanc Signature, chúng ta có thể dễ dàng cảm nhận được nhân vật chính là vani, nhưng vani được làm theo kiểu rất ít ngọt, kiểu dạng lấy tất cả những khía cạnh của vani rồi bỏ cái ngọt đi tạo ra một trạng thái kem kem, êm dịu và mềm mại."
+    },
+    {
+      "id": 9,
+      "name": "Explorer",
+      "price": "2600000",
+      "img": "explorer.png",
+      "intro": "Montblanc công bố dòng nước hoa nam mới nhất của mình vào tháng 2 năm 2019 với tên gọi là Montblanc Explorer, là một câu chuyện đầy cảm hứng về những cuộc phiêu lưu, tìm kiếm sự thành công, những quy ước đầy thách thức và mong muốn, khát khao khám phá mọi giới hạn. "
+    },
+    {
+      "id": 10,
+      "name": "La Nuit De L’homme EDP",
+      "price": "3250000",
+      "img": "Lanuite.png",
+      "intro": "Được ra mắt vào năm 2019 hứa hẹn là một bản mang màu sắc đậm đà và gợi cảm hơn bản gốc, dành cho người đàn ông “bí ẩn, quyến rũ và táo bạo”. . Hương đầu: Bưởi, thảo quả Hương giữa: Cây xô thơm, hoa oải hương Hương cuối: hoắc hương, gỗ đàn hương, đậu tonka, vetiver"
+    }
+  ]
+}

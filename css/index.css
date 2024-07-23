@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.nav-header {
+  padding: 16px 60px;
+}
+
+.ul-nav {
+  list-style-type: none;
+}
+.li-nav {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.a-nav {
+  font-size: 18px;
+  font-weight: 300;
+}
+.li-nav:hover {
+  border-bottom: 1px solid black;
+}
+
+.logo-header {
+  left: 47%;
+}
+
+.user-header {
+  width: 20px;
+  height: 20px;
+}
+
+.user-header:nth-child(2) {
+  margin: 0 15px;
+}
+
+#footer {
+  padding: 40px 140px 80px;
+}
+
+.title-footer {
+  font-weight: 300;
+  font-size: 36px;
+}
+
+.ul-footer {
+  list-style-type: none;
+}
+
+.form-register-member .input-email {
+  background: rgb(59, 59, 59);
+  border-bottom: 1px solid aliceblue;
+}
+.form-register-member .btn-submit {
+  background: rgb(59, 59, 59);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.form-register-member .btn-submit:hover {
+  background: white;
+  color: black !important;
+}

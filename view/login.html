@@ -1,0 +1,35 @@
+<style>
+    body{
+     background: url(assets/store/5fcc80e2a77a4ce69467ea7f08e49fea.png);
+   }
+   .card{
+     background: rgba(225, 222, 222, 0.7);
+   }
+   </style>
+   <div class="container">
+       <div class="card m-4  border-2 m-5">
+           <div class="card-header fw-bold text-center text-dark">
+             ĐĂNG NHẬP
+           </div>
+           <div class="card-body">
+               <form name="frmdn">
+                   <div class="mb-3">
+                   <label for="username" class="form-label">Tên đăng nhập</label>
+                   <input ng-model="u" required name="username" type="text" class="form-control bg-success-subtle"/>
+                    <em class="text-danger" ng-show="frmdn.username.$invalid">Chưa nhập tên đăng nhập</em>
+                   </div>
+                   <div class="mb-3">
+                   <label for="password" class="form-label">Mật khẩu</label>
+                   <input ng-model="p" required name="password" type="password" class="form-control bg-success-subtle"/>
+                   <em class="text-danger" ng-show="frmdn.password.$invalid">Chưa nhập mật khẩu</em>
+                   </div>
+                   <div class="mb-3 form-check">
+                   <input type="checkbox" class="form-check-input" id="rememberMe">
+                   <label class="form-check-label" for="rememberMe">Ghi nhớ đăng nhập</label>
+                   </div>
+                   <p><button ng-click="dangnhap()" type="button" class="btn btn-info text-center">Đăng nhập</button></p>
+                   <p>Bạn chưa có tài khoản?<a href="#!logout">Đăng ký</a></p>
+                   </form>
+           </div>
+           </div>
+   </div>

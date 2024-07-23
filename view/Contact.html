@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/index.css" rel="stylesheet" />
+    <link href="../css/contact.css" rel="stylesheet" />
+    <link href="../assets/logo/logo.png" rel="icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>XXVISTORE</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="header" class="d-flex flex-column w-100">
+        <div
+          class="nav-header w-100 d-flex align-items-center justify-content-between position-relative border-bottom border-dark"
+        >
+          <div
+            class="nav-left d-flex align-items-center justify-content-center"
+          >
+            <ul class="ul-nav d-flex align-items-center">
+              <li class="li-nav border-bottom border-light">
+                <a
+                  class="a-nav text-decoration-none text-dark"
+                  href="../index.html"
+                  >Trang chủ</a
+                >
+              </li>
+              <li class="li-nav border-bottom border-light">
+                <a
+                  class="a-nav text-decoration-none text-dark"
+                  href="../view/About.html"
+                  >Giới thiệu</a
+                >
+              </li>
+              <li class="li-nav border-bottom border-light">
+                <a
+                  class="a-nav text-decoration-none text-dark"
+                  href="../view/Contact.html"
+                  >Liên hệ</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="logo-header flex-1 position-absolute text-center top-0">
+            <a href="../index.html"
+              ><img src="../assets/logo/logo.png" class="img-logo" alt=""
+            /></a>
+          </div>
+          <div class="nav-right d-flex align-items-center">
+            <a href="#" class="user-header">
+              <img
+                src="../assets/icons/search.png"
+                class="icon-user w-100 h-100"
+                alt=""
+              />
+            </a>
+            <a href="#" class="user-header">
+              <img
+                src="../assets/icons/user.png"
+                class="icon-user w-100 h-100"
+                alt=""
+              />
+            </a>
+            <a href="../view/Cart.html" class="user-header">
+              <img
+                src="../assets/icons/cart.png"
+                class="icon-user w-100 h-100"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-container">
+        <div class="heading-contact">
+          <span class="title-contact">Liên hệ</span>
+        </div>
+        <div class="contact-content">
+          <div class="map-store">
+            <h2 class="title-map">xxiv store</h2>
+            <div class="location-store">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59590.9071350203!2d105.815511!3d21.015406!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab636bdea859%3A0xf68eaa2433cb52b0!2zMjUgTmcuIFRow6FpIEjDoCwgTMOhbmcgSOG6oSwgxJDhu5FuZyDEkGEsIEjDoCBO4buZaSwgVmlldG5hbQ!5e0!3m2!1sen!2sus!4v1680529271743!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <div class="form-contact">
+            <h2 class="title-contact">Liên hệ</h2>
+            <form class="form">
+              <input
+                type="text"
+                class="input-contact"
+                name="name"
+                placeholder="Họ và tên..."
+              />
+              <input
+                type="number"
+                class="input-contact"
+                name="phone"
+                placeholder="Số điện thoại..."
+              />
+              <input
+                type="email"
+                class="input-contact"
+                name="email"
+                placeholder="Email..."
+              />
+              <textarea
+                rows="5"
+                class="input-contact"
+                name="introduction"
+                placeholder="Thông tin liên hệ"
+              ></textarea>
+              <button type="button" class="btn-submit">GỬI THÔNG TIN</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="footer" class="d-flex justify-content-between w-100 position-relative bottom-0 start-0 bg-dark text-light">
+        <div class="footer-left d-flex flex-column align-items-center text-center">
+          <h1 class="title-footer text-center">Thông tin chung</h1>
+          <ul class="ul-footer mt-3">
+            <li class="li-footer p-2">
+              <a class="a-footer text-decoration-none text-light" href="../view/About.html">Giới thiệu</a>
+            </li>
+            <li class="li-footer p-2">
+              <a class="a-footer text-decoration-none text-light" href="../view/Account.html">Tài khoản</a>
+            </li>
+            <li class="li-footer p-2">
+              <a class="a-footer text-decoration-none text-light" href="../view/Contact.html">Liên hệ</a>
+            </li>
+            <li class="li-footer p-2">
+              <a class="a-footer text-decoration-none text-light" href="../view/ListProduct.html">Sản phẩm</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-main">
+          <h1 class="title-footer">Đăng ký thành viên</h1>
+          <form class="form-register-member w-100 mt-4 d-flex">
+            <input
+              class="input-email w-100 px-2 py-1 me-2 border-none outline-none text-light"
+              type="email"
+              name="email"
+              placeholder="Nhập Email..."
+            />
+            <button class="btn-submit border border-light rounded px-1 py-2 text-light" type="button">Đăng ký</button>
+          </form>
+        </div>
+        <div class="footer-right">
+          <h1 class="title-footer">Vị trí store</h1>
+          <div class="location-store mt-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14897.479541128885!2d105.815597!3d21.017881!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab636bdea859%3A0xf68eaa2433cb52b0!2zMjUgTmcuIFRow6FpIEjDoCwgTMOhbmcgSOG6oSwgxJDhu5FuZyDEkGEsIEjDoCBO4buZaSwgVmlldG5hbQ!5e0!3m2!1sen!2sus!4v1680495239232!5m2!1sen!2sus"
+              width="300"
+              height="150"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="design-by w-100 position-absolute start-0 bottom-0 d-flex align-items-center justify-content-center p-3 bg-light color-dark">
+          <p class="design-text text-dark">Design by Nguyen The Sang</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+.contact-container{
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-contact{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-content{
+    width: 100%;
+    display: flex;
+    padding: 0 40px;
+}
+
+.contact-content .map-store{
+    flex: 0 0 50%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    margin-right:8px;
+}
+
+.contact-content .form-contact{
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.form-contact .form{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form .input-contact{
+    background: #dedede;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    margin-bottom: 8px;
+}
+.form .input-contact{
+    background: #dedede;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    margin-bottom: 8px;
+}
+
+.form .btn-submit{
+    background: black;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.form .btn-submit:hover{
+    background: rgb(59, 59, 59);
+}
